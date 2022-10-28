@@ -1,0 +1,69 @@
+html,body {
+    margin: 0px; 
+
+}
+.card .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+body {
+    background-image: url('/Users/mhous/OneDrive/Pictures/2019-06/mo2.jpg');
+    
+}
+
+.card {
+    padding: 25px;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.05);
+    min-width: 30%;
+    min-height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px rgba(60, 49, 65, 0.75);
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    background-color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgba(190, 87, 144, 0.897)
+    
+    
+}
+
+
+
+.submit button{
+    border: none;
+    border-radius: 6px; 
+    background-color: rgb(216, 172, 236); 
+
+}
+
+button:hover {
+    background-color: rgb(181, 103, 218);
+    border-radius: 6px;
+}
+
+.card input {
+    border: none;
+    border-bottom: 2px solid lightpink;
+    outline: none;
+    
+    
+}
